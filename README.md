@@ -138,7 +138,8 @@ The project utilizes 10-K financial reports from the following companies:
 ```
 📦 BCG_GenAI_Financial_Chatbot  
 ┣ 📜 Task_One.ipynb   # Jupyter Notebook for Task One  
-┣ 📜 Task_Two.ipynb   # Jupyter Notebook for Task Two  
+┣ 📜 Task_Two.ipynb   # Jupyter Notebook for Task Two
+┣ 📜 Task_Three.ipynb   # Jupyter Notebook for Task Three    
 ┣ 📜 10K_Financial_Data.xlsx    # Excel Spreadsheet with the 10-K reports information  
 ┣ 📜 10K_Financial_Data.csv    # CSV version of the 10-K reports data for easier handling in Python  
 ┣ 📜 10K_Financial_Data_Enhanced.csv    # Enhanced CSV with calculated metrics and growth percentages  

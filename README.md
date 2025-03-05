@@ -130,7 +130,7 @@ The project utilizes 10-K financial reports from the following companies:
 ---
 
 ## 🛠 Technologies Used
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn)
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, FuzzyWuzzy, spaCy)
 - **Jupyter Notebook** for structured analysis and visualization
 - **Excel** To save the information we get from the 10-K reports and use it as a spreadsheet for easy reference during your Python analysis.
 
@@ -152,9 +152,11 @@ The project utilizes 10-K financial reports from the following companies:
 
 ## Future Improvements
 
-- Enhance NLP capabilities for more accurate financial interpretations.
 - Integrate additional financial documents for comprehensive analysis.
-- Implement advanced AI models for predictive financial analytics.
+- Enhance entity recognition by fine-tuning the Spacy model with company names from the dataset.
+- Improve year detection by handling relative references (e.g., *"last year"*).
+- Implement memory for context tracking, enabling follow-up questions.
+- Refine fuzzy matching to avoid misinterpretations of financial terms.
 
 ---
 
